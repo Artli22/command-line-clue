@@ -27,6 +27,23 @@ to:
 
 The last uncrossed suspect and weapon will be your solution!
 
+### Detective Training (Pro Tips)
+
+Before you start, learn these essential detective skills to move faster:
+
+1. **Tab Completion (The Most Important Skill):**
+   Instead of typing the whole name of a room, type the first few letters and press the **Tab** key. Your terminal will finish the name for you! 
+   *Example:* Type `cd tow` then press **Tab** -> it becomes `cd "town hall"/`.
+
+2. **Handling Spaces:**
+   If a folder has a space (like `town hall`), you must put it in quotes: `cd "town hall"`. If you use **Tab Completion**, the terminal will automatically add quotes or backslashes for you.
+
+3. **Where am I? (`pwd`):**
+   If you get lost, type `pwd` (Print Working Directory). It will show you exactly where you are in the town.
+
+4. **Quick Back (`cd -`):**
+   Type `cd -` to quickly jump back to the last room you were in.
+
 ### Navigating the Town
 
 To move around town and gather evidence, you'll use these simple commands:
@@ -47,13 +64,17 @@ cat persons.txt
 cat objects.txt
 ```
 
-For example, let's say you're investigating the library:
+### Closing the Case
+
+Once you think you've solved the mystery, use the `accuse.py` script in the `game` directory. You'll need to provide the suspect, the weapon, and the room where it happened.
+
+**Important:** You must run this from the `game` folder.
+
 ```bash
-cd library
-ls              # Shows: objects.txt  persons.txt
-cat persons.txt # Might show: "The Teacher"
+python3 accuse.py "The Librarian" "Heavy Book" "Library"
 ```
-If you find The Teacher here, you can cross them off your suspect list!
+
+If you are right, you'll win the game! If not, the script will tell you which parts of your accusation are wrong so you can keep investigating.
 
 ### Following the Investigation Trail
 
