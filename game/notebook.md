@@ -6,7 +6,7 @@
 - [ ] The Shopkeeper
 
 ## Weapons
-- [ ] Kitchen Knife
+- [x] Kitchen Knife
 - [ ] Fountain Pen
 - [ ] Wooden Box
 
