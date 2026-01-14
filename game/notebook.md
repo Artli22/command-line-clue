@@ -3,7 +3,7 @@
 ## Suspects
 - [x] The Banker
 - [ ] The Blacksmith
-- [ ] The Shopkeeper
+- [x] The Shopkeeper
 
 ## Weapons
 - [x] Kitchen Knife
