@@ -8,7 +8,7 @@
 ## Weapons
 - [x] Kitchen Knife
 - [ ] Fountain Pen
-- [ ] Wooden Box
+- [x] Wooden Box
 
 ## Notes
 *Use this space to record your findings and deductions...*
