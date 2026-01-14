@@ -1,7 +1,7 @@
 # Detective's Notebook
 
 ## Suspects
-- [ ] The Banker
+- [x] The Banker
 - [ ] The Blacksmith
 - [ ] The Shopkeeper
 
