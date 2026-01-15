@@ -114,3 +114,7 @@ cat clue.txt   # Read the next clue
 - Keep track of which suspects and weapons you've crossed off
 
 Happy investigating, Detective! The town is counting on you to solve this mystery!
+## Resultados
+- sospechoso: The blacksmith
+- arma: Fountain Pen 
+- lugar: art room 
